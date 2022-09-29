@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE biblioteca>
+    <biblioteca>
+        <ejemplar>
+            <titulo>El imperio Final</titulo>
+            <autor>Brandom Sanderson</autor>
+            <fecha>2015</fecha>
+            <paginas>200</paginas>
+        </ejemplar>
+
+        <ejemplar>
+            <titulo>El camino</titulo>
+            <autor>Miguel Delibes</autor>
+            <fecha>1970</fecha>
+            <paginas>150</paginas>
+        </ejemplar>
+
+        <ejemplar>
+            <titulo>Harry Potter</titulo>
+            <autor>J.K Rowling</autor>
+            <fecha>2012</fecha>
+            <paginas>190</paginas>
+        </ejemplar>
+
+</biblioteca>
