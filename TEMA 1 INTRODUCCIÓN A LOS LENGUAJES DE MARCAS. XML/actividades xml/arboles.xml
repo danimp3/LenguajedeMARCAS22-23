@@ -11,6 +11,7 @@
         <altura> De 6 a 10 metros</altura>
         <forma-estructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</forma-estructura>
         <color_primavera>Haz verde brillante, envés verde blanquecino</color_primavera>
+        <color_otono></color_otono>
         <resistencia_heladas>Heladas fuertes (hasta -15ºC)</resistencia_heladas>   
     </arbol>
 
@@ -19,10 +20,18 @@
         <vegetacion>Perenne</vegetacion>
         <altura> De 8 a 15 metros</altura>
         <forma-estructura>Copa irregular. Tronco principal irregular con bifurcaciones.</forma-estructura> 
+        <color_primavera></color_primavera>
+        <color_otono></color_otono>
+        <resistencia_heladas></resistencia_heladas>
     </arbol>
 
     <arbol nombre_cientifico="Ramaje tortuoso">
+        <nombre_comun></nombre_comun>
+        <vegetacion></vegetacion>
+        <altura></altura>
+        <forma-estructura></forma-estructura>
         <color_primavera>Haz verde oscuro, envés verde plateado</color_primavera>
+        <color_otono></color_otono>
         <resistencia_heladas>Heladas medias (hasta -10ºC)</resistencia_heladas>
     </arbol>
 
@@ -41,7 +50,8 @@
         <vegetacion>Perenne</vegetacion>
         <altura>En torno a 25 metros</altura>
         <forma-estructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</forma-estructura>
-        <color_primavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</color_primavera> 
+        <color_primavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</color_primavera>
+        <color_otono></color_otono> 
         <resistencia_heladas>Heladas fuertes (hasta -15ºC)</resistencia_heladas>   
     </arbol>
 </arboles>
