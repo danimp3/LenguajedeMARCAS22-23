@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ciudades>
+
+<!--Vamos a guardar informacion de ciudades-->
+<ciudades>
+    <ciudad>
+        <nombre>Nueva Delhi</nombre>
+        <pais continente="Asia">India</pais>
+    </ciudad>
+
+    <ciudad>
+        <nombre>Lisboa</nombre>
+        <pais continente="Europa">Portugal</pais>
+    </ciudad>
+
+    <ciudad>
+        <nombre>El Cairo</nombre>
+        <pais continente="Africa">Egipto</pais>
+    </ciudad>
+</ciudades>

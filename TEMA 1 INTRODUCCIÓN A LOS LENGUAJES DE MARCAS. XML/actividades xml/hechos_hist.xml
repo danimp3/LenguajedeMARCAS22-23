@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hechos_his>
+
+<!--Vamos a guardar informacion de ciudades-->
+
+<hechos_his>
+    <hecho descripcion_hecho="IBM da a conocer el PC">
+        <fecha>
+        <dia>12</dia>
+        <mes>8</mes>
+        <ano>1981</ano>
+        </fecha>
+    </hecho>
+
+    <hecho descripcion_hecho="Se funda Google">
+        <fecha>
+            <dia>4</dia>
+            <mes>9</mes>
+            <ano>1998</ano>
+        </fecha>
+    </hecho>
+
+    <hecho descripcion_hecho="Se funda Facebook">
+        <fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <ano>2004</ano>
+        </fecha>
+    </hecho>
+</hechos_his>
