@@ -5,30 +5,28 @@
 
 <arboles>
 
-    <Acer_monspessulanum>
+    <arbol nombre_cientifico="Acer monspessulanum">
         <nombre_comun>Arce de Montpellier, Arce menor</nombre_comun>
         <vegetacion>Caducifolio</vegetacion>
         <altura> De 6 a 10 metros</altura>
         <forma-estructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</forma-estructura>
         <color_primavera>Haz verde brillante, envés verde blanquecino</color_primavera>
-        <resistencia_heladas>Heladas fuertes (hasta -15ºC)</resistencia_heladas>
-    
-    
-    </Acer_monspessulanum>
+        <resistencia_heladas>Heladas fuertes (hasta -15ºC)</resistencia_heladas>   
+    </arbol>
 
-    <Olea_europea>
+    <arbol nombre_cientifico="Olea europea">
         <nombre_comun>Olivo</nombre_comun>
         <vegetacion>Perenne</vegetacion>
         <altura> De 8 a 15 metros</altura>
         <forma-estructura>Copa irregular. Tronco principal irregular con bifurcaciones.</forma-estructura> 
-    </Olea_europea>
+    </arbol>
 
-    <Ramaje_tortuoso>
+    <arbol nombre_cientifico="Ramaje tortuoso">
         <color_primavera>Haz verde oscuro, envés verde plateado</color_primavera>
         <resistencia_heladas>Heladas medias (hasta -10ºC)</resistencia_heladas>
-    </Ramaje_tortuoso>
+    </arbol>
 
-    <Platanus_orientalis>
+    <arbol nombre_cientifico="Platanus orientalis">
         <nombre_comun>Platano</nombre_comun>
         <vegetacion>Caducifolio</vegetacion>
         <altura>De 20 a 25 metros</altura>
@@ -36,14 +34,14 @@
         <color_primavera>Haz verde medio, enves verde claro</color_primavera>
         <color_otono>Ocre</color_otono>   
         <resistencia_heladas>Heladas fuertes (hasta -20ºC)</resistencia_heladas>   
-    </Platanus_orientalis>
+    </arbol>
 
-    <Quercus_ilex>
+    <arbol nombre_cientifico="Quercus ilex">
         <nombre_comun>Encina</nombre_comun>
         <vegetacion>Perenne</vegetacion>
         <altura>En torno a 25 metros</altura>
         <forma-estructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</forma-estructura>
         <color_primavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</color_primavera> 
         <resistencia_heladas>Heladas fuertes (hasta -15ºC)</resistencia_heladas>   
-    </Quercus_ilex>
+    </arbol>
 </arboles>
