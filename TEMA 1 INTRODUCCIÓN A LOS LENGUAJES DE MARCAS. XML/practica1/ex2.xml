@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clusters>
+
+<!--Vamos a guardar informacion sobre clusters-->
+
+<cluster>
+    <nodo nombre="1" IP="10.1.13.2">
+        <maquinas_virtuales>
+            <maquina_virtual>
+                <nombre>MV1</nombre>
+                <S.O_instalado>Windows</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.5</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </ethernet_1>
+                    <wifi_1>
+                        <ip>10.1.13.6</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </wifi_1>
+                </interfaces_red>
+            </maquina_virtual>
+
+            <maquina_virtual>
+                <nombre>MV2</nombre>
+                <S.O_instalado>Ubuntu</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.7</ip>
+                        <mac>FA-C2-F6-F2-C7</mac>
+                    </ethernet_1>
+                </interfaces_red>
+            </maquina_virtual>
+
+            <maquina_virtual>
+                <nombre>MV3</nombre>
+                <S.O_instalado>Windows</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.10</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </ethernet_1>
+                </interfaces_red>
+            </maquina_virtual>
+        </maquinas_virtuales>
+    </nodo>
+
+
+   <nodo nombre="2" IP="10.1.12.2">
+        <maquinas_virtuales>
+            <maquina_virtual>
+                <nombre>MV1</nombre>
+                <S.O_instalado>Windows</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.12.5</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </ethernet_1>
+                    <wifi_1>
+                        <ip>10.1.12.6</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </wifi_1>
+                </interfaces_red>
+            </maquina_virtual>
+
+            <maquina_virtual>
+                <nombre>MV2</nombre>
+                <S.O_instalado>Ubuntu</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.7</ip>
+                        <mac>FA-C2-F6-F2-C7</mac>
+                    </ethernet_1>
+                </interfaces_red>
+            </maquina_virtual>
+
+            <maquina_virtual>
+                <nombre>MV3</nombre>
+                <S.O_instalado>Windows</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.10</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </ethernet_1>
+                </interfaces_red>
+            </maquina_virtual>
+        </maquinas_virtuales>
+    </nodo>
+
+
+    <nodo nombre="1" IP="10.1.13.2">
+        <maquinas_virtuales>
+            <maquina_virtual>
+                <nombre>MV1</nombre>
+                <S.O_instalado>Windows</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.5</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </ethernet_1>
+                    <wifi_1>
+                        <ip>10.1.13.6</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </wifi_1>
+                </interfaces_red>
+            </maquina_virtual>
+
+            <maquina_virtual>
+                <nombre>MV2</nombre>
+                <S.O_instalado>Ubuntu</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.7</ip>
+                        <mac>FA-C2-F6-F2-C7</mac>
+                    </ethernet_1>
+                </interfaces_red>
+            </maquina_virtual>
+
+            <maquina_virtual>
+                <nombre>MV3</nombre>
+                <S.O_instalado>Windows</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.10</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </ethernet_1>
+                </interfaces_red>
+            </maquina_virtual>
+        </maquinas_virtuales>
+    </nodo>
+
+
+    <nodo nombre="1" IP="10.1.13.2">
+        <maquinas_virtuales>
+            <maquina_virtual>
+                <nombre>MV1</nombre>
+                <S.O_instalado>Windows</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.5</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </ethernet_1>
+                    <wifi_1>
+                        <ip>10.1.13.6</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </wifi_1>
+                </interfaces_red>
+            </maquina_virtual>
+
+            <maquina_virtual>
+                <nombre>MV2</nombre>
+                <S.O_instalado>Ubuntu</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.7</ip>
+                        <mac>FA-C2-F6-F2-C7</mac>
+                    </ethernet_1>
+                </interfaces_red>
+            </maquina_virtual>
+
+            <maquina_virtual>
+                <nombre>MV3</nombre>
+                <S.O_instalado>Windows</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.10</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </ethernet_1>
+                </interfaces_red>
+            </maquina_virtual>
+        </maquinas_virtuales>
+    </nodo>
+
+   <nodo nombre="1" IP="10.1.13.2">
+        <maquinas_virtuales>
+            <maquina_virtual>
+                <nombre>MV1</nombre>
+                <S.O_instalado>Windows</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.5</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </ethernet_1>
+                    <wifi_1>
+                        <ip>10.1.13.6</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </wifi_1>
+                </interfaces_red>
+            </maquina_virtual>
+
+            <maquina_virtual>
+                <nombre>MV2</nombre>
+                <S.O_instalado>Ubuntu</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.7</ip>
+                        <mac>FA-C2-F6-F2-C7</mac>
+                    </ethernet_1>
+                </interfaces_red>
+            </maquina_virtual>
+
+            <maquina_virtual>
+                <nombre>MV3</nombre>
+                <S.O_instalado>Windows</S.O_instalado>
+                <interfaces_red>
+                    <ethernet_1>
+                        <ip>10.1.13.10</ip>
+                        <mac>FA-C2-F6-F2-C5</mac>
+                    </ethernet_1>
+                </interfaces_red>
+            </maquina_virtual>
+        </maquinas_virtuales>
+    </nodo>
+
+</cluster>

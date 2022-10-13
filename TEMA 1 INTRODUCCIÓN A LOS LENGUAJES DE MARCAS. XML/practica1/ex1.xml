@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE torneo>
+
+<!--Vamos a guardar informacion sobre partidos de un torneo-->
+
+<torneo>
+    <nombre>torneo1</nombre>
+    <fecha_ini>12/05/2022</fecha_ini>
+    <fecha_fin>20/05/2022</fecha_fin>
+    
+    <partidos>
+        <partido>
+            <fecha_partido>12/05/2022</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <DNI>41489456Ñ</DNI>
+                    <nombre>Manuel</nombre>
+                    <edad>25</edad>
+                </jugador>
+
+                <jugador>
+                    <DNI>541542318L</DNI>
+                    <nombre>pepe</nombre>
+                    <edad>34</edad>
+                </jugador>
+            </jugadores>
+
+            <resultado_set>
+                <set_1>6-1</set_1>
+                <set_2>4-6</set_2>
+                <set_3>6-1</set_3>
+            </resultado_set>
+        
+        </partido>
+
+
+        <partido>
+            <fecha_partido>12/05/2022</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <DNI>1848445H</DNI>
+                    <nombre>juan</nombre>
+                    <edad>45</edad>
+                </jugador>
+
+                <jugador>
+                    <DNI>48944646H</DNI>
+                    <nombre>daniel</nombre>
+                    <edad>44</edad>
+                </jugador>
+            </jugadores>
+
+            <resultado_set>
+                <set_1>6-4</set_1>
+                <set_2>5-6</set_2>
+                <set_3>6-1</set_3>
+            </resultado_set>
+        
+        </partido>
+
+
+        <partido>
+            <fecha_partido>12/05/2022</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <DNI>5451154L</DNI>
+                    <nombre>Pepe</nombre>
+                    <edad>19</edad>
+                </jugador>
+
+                <jugador>
+                    <DNI>154594564Q</DNI>
+                    <nombre>David</nombre>
+                    <edad>32</edad>
+                </jugador>
+            </jugadores>
+
+            <resultado_set>
+                <set_1>6-2</set_1>
+                <set_2>2-4</set_2>
+                <set_3>6-3</set_3>
+            </resultado_set>
+        
+        </partido>
+
+
+        <partido>
+            <fecha_partido>12/05/2022</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <DNI>41489456Ñ</DNI>
+                    <nombre>Manuel</nombre>
+                    <edad>25</edad>
+                </jugador>
+
+                <jugador>
+                    <DNI>541542318L</DNI>
+                    <nombre>pepe</nombre>
+                    <edad>34</edad>
+                </jugador>
+            </jugadores>
+
+            <resultado_set>
+                <set_1>6-1</set_1>
+                <set_2>4-6</set_2>
+                <set_3>6-1</set_3>
+            </resultado_set>
+        
+        </partido>
+
+
+        <partido>
+            <fecha_partido>12/05/2022</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <DNI>41489456Ñ</DNI>
+                    <nombre>Manuel</nombre>
+                    <edad>25</edad>
+                </jugador>
+
+                <jugador>
+                    <DNI>541542318L</DNI>
+                    <nombre>pepe</nombre>
+                    <edad>34</edad>
+                </jugador>
+            </jugadores>
+
+            <resultado_set>
+                <set_1>6-1</set_1>
+                <set_2>4-6</set_2>
+                <set_3>6-1</set_3>
+            </resultado_set>
+        
+        </partido>
+
+
+        <partido>
+            <fecha_partido>12/05/2022</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <DNI>41489456Ñ</DNI>
+                    <nombre>Manuel</nombre>
+                    <edad>25</edad>
+                </jugador>
+
+                <jugador>
+                    <DNI>541542318L</DNI>
+                    <nombre>pepe</nombre>
+                    <edad>34</edad>
+                </jugador>
+            </jugadores>
+
+            <resultado_set>
+                <set_1>6-1</set_1>
+                <set_2>4-6</set_2>
+                <set_3>6-1</set_3>
+            </resultado_set>
+        
+        </partido>
+
+
+        <partido>
+            <fecha_partido>12/05/2022</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <DNI>41489456Ñ</DNI>
+                    <nombre>Manuel</nombre>
+                    <edad>25</edad>
+                </jugador>
+
+                <jugador>
+                    <DNI>541542318L</DNI>
+                    <nombre>pepe</nombre>
+                    <edad>34</edad>
+                </jugador>
+            </jugadores>
+
+            <resultado_set>
+                <set_1>6-1</set_1>
+                <set_2>4-6</set_2>
+                <set_3>6-1</set_3>
+            </resultado_set>
+        
+        </partido>
+
+
+        <partido>
+            <fecha_partido>12/05/2022</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <DNI>41489456Ñ</DNI>
+                    <nombre>Manuel</nombre>
+                    <edad>25</edad>
+                </jugador>
+
+                <jugador>
+                    <DNI>541542318L</DNI>
+                    <nombre>pepe</nombre>
+                    <edad>34</edad>
+                </jugador>
+            </jugadores>
+
+            <resultado_set>
+                <set_1>6-1</set_1>
+                <set_2>4-6</set_2>
+                <set_3>6-1</set_3>
+            </resultado_set>
+        
+        </partido>
+
+
+        <partido>
+            <fecha_partido>12/05/2022</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <DNI>41489456Ñ</DNI>
+                    <nombre>Manuel</nombre>
+                    <edad>25</edad>
+                </jugador>
+
+                <jugador>
+                    <DNI>541542318L</DNI>
+                    <nombre>pepe</nombre>
+                    <edad>34</edad>
+                </jugador>
+            </jugadores>
+
+            <resultado_set>
+                <set_1>6-1</set_1>
+                <set_2>4-6</set_2>
+                <set_3>6-1</set_3>
+            </resultado_set>
+        
+        </partido>
+
+
+        <partido>
+            <fecha_partido>12/05/2022</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <DNI>41489456Ñ</DNI>
+                    <nombre>Manuel</nombre>
+                    <edad>25</edad>
+                </jugador>
+
+                <jugador>
+                    <DNI>541542318L</DNI>
+                    <nombre>pepe</nombre>
+                    <edad>34</edad>
+                </jugador>
+            </jugadores>
+
+            <resultado_set>
+                <set_1>6-1</set_1>
+                <set_2>4-6</set_2>
+                <set_3>6-1</set_3>
+            </resultado_set>
+        
+        </partido>
+    </partidos>
+
+
+</torneo>

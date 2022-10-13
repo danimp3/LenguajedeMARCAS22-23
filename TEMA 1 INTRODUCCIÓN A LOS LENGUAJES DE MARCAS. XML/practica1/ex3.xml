@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dir_empresa>
+
+<!--Vamos a guardar informacion sobre direcciones de una empresa-->
+
+<dir_empresa>
+    <edificios>
+        <edificio direccion="sevilla" plantas="3">
+            <planta numero="1" m_cuardrados="30"> 
+                <empleados>
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                </empleados>
+            </planta>
+    
+            <planta numero="2" m_cuardrados="70"> 
+                <empleados>
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                </empleados>
+            </planta>
+
+            <planta numero="3" m_cuardrados="70"> 
+                <empleados>
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                </empleados>
+            </planta>
+        </edificio>
+
+        <edificio direccion="nao victoria" plantas="3">
+            <planta numero="1" m_cuardrados="30"> 
+                <empleados>
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                </empleados>
+            </planta>
+    
+            <planta numero="2" m_cuardrados="70"> 
+                <empleados>
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                </empleados>
+            </planta>
+
+            <planta numero="3" m_cuardrados="70"> 
+                <empleados>
+                    <empleado>
+
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                </empleados>
+            </planta>
+        </edificio>
+
+
+        <edificio direccion="torre del oro" plantas="3">
+            <planta numero="1" m_cuardrados="30"> 
+                <empleados>
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                </empleados>
+            </planta>
+    
+            <planta numero="2" m_cuardrados="70"> 
+                <empleados>
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                </empleados>
+            </planta>
+
+            <planta numero="3" m_cuardrados="70"> 
+                <empleados>
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+
+                    <empleado>
+                        <puesto>administrador</puesto>
+                        <datos_pers>
+                            <DNI>56454515N</DNI>
+                            <nombre>Pepe</nombre>
+                            <edad>54</edad>
+                        </datos_pers>
+                        <ext_tfno>32</ext_tfno>
+                    </empleado>
+                    
+                </empleados>
+            </planta>
+        </edificio>
+    </edificios>
+
+</dir_empresa>
