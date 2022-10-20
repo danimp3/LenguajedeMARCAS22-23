@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musicians [
+ <!ELEMENT musicians (musician*)>
+ <!ELEMENT musician ((name | alias), birthDate)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT alias (#PCDATA)>
+ <!ELEMENT birthDate (#PCDATA)>
+]>
+<musicians>
+ <musician>
+ <name>Antonio Vivaldi</name>
+ <alias>The Orange Prist</alias>
+ <birthDate>March 4th 1678</birthDate>
+ </musician>
+ <musician>
+ <name>Johann Sebastian Bach</name>
+ <alias>The Old Bald</alias>
+ <birthDate>March 21st 1685</birthDate>
+ </musician>
+</musicians>

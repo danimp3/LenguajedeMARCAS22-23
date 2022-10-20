@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+ <!ELEMENT agenda (contact*)>
+ <!ELEMENT contact (name, landPhone*, mobilePhone+)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT landPhone (#PCDATA)>
+ <!ELEMENT mobilePhone (#PCDATA)>
+]>
+<agenda>
+ <contact>
+ <name>Townhall</name>
+ <landPhone>010</landPhone>
+ <mobilePhone>Unknown</mobilePhone>
+ </contact>
+ <contact>
+ <name>Emergency</name>
+ <landPhone>112 (European Union)</landPhone>
+ <landPhone>911 (USA)</landPhone>
+ <mobilePhone>Unknown</mobilePhone>
+ </contact>
+</agenda>

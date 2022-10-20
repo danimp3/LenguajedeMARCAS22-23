@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE anniversaires [
+ <!ELEMENT anniversaires (anniversaire*)>
+ <!ELEMENT anniversaire (date, fact)>
+ <!ELEMENT date (#PCDATA)>
+ <!ELEMENT fact (#PCDATA)>
+]>
+<anniversaires>
+ <anniversaire>
+ <date>July 20th 1969</date>
+ <fact>Man reaches the moon.</fact>
+ </anniversaire>
+ <anniversaire>
+ <date>October 12th 1492</date>
+ <fact> Arrival of Columbus to America </fact>
+ </anniversaire>
+ <anniversaire>
+ <date>April 6th 1909</date>
+ <fact> Arrival of Robert Peary at the North Pole </fact>
+ </anniversaire>
+</anniversaires>

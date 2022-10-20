@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE solarSystem [
+ <!ELEMENT solarSystem (body*)>
+ <!ELEMENT body (planet|satellite|asteroid)>
+ <!ELEMENT planet (#PCDATA)>
+ <!ELEMENT satellite (#PCDATA)>
+ <!ELEMENT asteroid (#PCDATA)>
+]>
+<solarSystem>
+ <body>
+ <planet>Earth</planet>
+ <satellite>Moon</satellite>
+ </body>
+ <body>
+ <asteroid>Ceres</asteroid>
+ </body>
+</solarSystem>

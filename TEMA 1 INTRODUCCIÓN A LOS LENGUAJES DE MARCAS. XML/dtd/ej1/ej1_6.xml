@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE writers [
+ <!ELEMENT writers (writer*)>
+ <!ELEMENT writer (name, birth)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT birth (#PCDATA)>
+]>
+<writers>
+ <writer>
+ <name>Mario Vargas Llosa</name>
+ <birth>March 28th 1936</birth>
+ </writer>
+ <writer>
+ <name>Milan Kunfromra</name>
+ <birth>April 1st 1929</birth>
+ </writer>
+</writers>

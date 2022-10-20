@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE airports [
+ <!ELEMENT airports (airport*)>
+ <!ELEMENT airport (name, closed?)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT closed (#PCDATA)>
+]>
+<airports>
+ <airport>
+ <name>Berlín Schönefeld (SFX)</name>
+ </airport>
+ <airport>
+ <name>Berlín Tempelhof (THF)</name>
+ <closed />
+</airport>
+</airports>

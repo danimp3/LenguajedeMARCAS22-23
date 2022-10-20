@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmarks [
+ <!ELEMENT bookmarks (bookmark*)>
+ <!ELEMENT bookmark (name, uri)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT uri (#PCDATA)>
+]>
+<bookmarks>
+ <bookmark>
+ <name>W3C</name>
+ <uri>http://www.w3.org/</uri>
+ </bookmark>
+ <bookmark>
+ <name>Web Hypertext Application Technology Working Group (WHATWG)</name>
+ <uri>http://www.whatwg.org/</uri>
+ </bookmark>
+</bookmarks>
