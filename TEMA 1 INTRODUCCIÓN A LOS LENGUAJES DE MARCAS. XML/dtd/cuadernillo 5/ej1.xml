@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE panel [
+    <!ELEMENT panel (nombre, vuelos, fecha)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT vuelos (vuelo+)>
+    <!ELEMENT vuelo ( diario?, origen, destino, hora_sal, hora_lleg)>
+            <!ATTLIST vuelo codigo ID #REQUIRED>
+            <!ATTLIST vuelo estado ( C | E | R ) "E">
+        <!ELEMENT diario EMPTY>
+        <!ELEMENT origen (#PCDATA)>
+        <!ELEMENT destino (#PCDATA)>
+        <!ELEMENT hora_sal (#PCDATA)>
+        <!ELEMENT hora_lleg (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+
+]>
+
+<panel>
+    <nombre>fdk</nombre>
+    <vuelos>
+        <vuelo codigo="V22" estado="R">
+            <diario/>
+            <origen>NYO</origen>
+            <destino>SEV</destino>
+            <hora_sal>1:30</hora_sal>
+            <hora_lleg>11:30</hora_lleg>
+     </vuelo>
+     <vuelo codigo="V23">
+            <origen>LVC</origen>
+            <destino>PMA</destino>
+            <hora_sal>10:30</hora_sal>
+            <hora_lleg>12:00</hora_lleg>
+     </vuelo>
+    
+    </vuelos>
+    <fecha>20/10/2022</fecha>
+</panel>
