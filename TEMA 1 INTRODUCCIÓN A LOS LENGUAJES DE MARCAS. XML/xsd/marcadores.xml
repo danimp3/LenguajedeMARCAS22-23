@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marcadores
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="marcadores.xsd">
+
+    <pagina>
+            <nombre>vbb</nombre>
+            <descripccion>asdca</descripccion>
+            <url>adada</url>
+    </pagina>
+    <pagina>
+            <nombre>asdasdas</nombre>
+            <descripccion>asdasdasd</descripccion>
+            <url>dasdassdasd</url>
+    </pagina>
+    <pagina>
+        <nombre>daadasd</nombre>
+        <descripccion>asdfsdf</descripccion>
+        <url>fdsfwef</url>
+    </pagina>
+</marcadores>
