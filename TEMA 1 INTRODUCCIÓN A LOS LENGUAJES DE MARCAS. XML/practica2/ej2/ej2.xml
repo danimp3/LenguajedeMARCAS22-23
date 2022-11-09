@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+<Libro Catalogo="clasicos">
+    <Titulo>El quijote</Titulo>
+    <Seccion>1</Seccion>
+    <SubSeccion>A</SubSeccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema>1</Tema>
+        </Capitulo>
+        <Separacion />
+    </Contenido>  
+    <Copyright>Quevedo</Copyright>
+</Libro>

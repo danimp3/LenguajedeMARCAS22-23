@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder orderid="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ej4.xsd">
+    <orderperson>lol</orderperson>
+    <shipto>
+        <name>pepe</name>
+        <address>torre del oro</address>
+        <city>sevilla</city>
+        <country>españa</country>
+    </shipto>
+    <item>
+        <title>cajas de carton</title>
+        <note>fragil</note>
+        <quantity>20</quantity>
+        <price >12.75</price>
+    </item>
+</shiporder>
