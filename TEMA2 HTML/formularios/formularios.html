@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+
+        <label for="id_nombre" style="font-weight:bold">nombre</label>
+        <input type="text" name="nombre" id="id_nombre" placeholder="Introduzca aqui su nombre" required>
+        <input type="button" value="enviar" style="background-color:rgb(60, 255, 0)">
+        <input type="submit" name="enviar" id="bt_enviar">
+        <br>
+        <br>
+        <fieldset>
+            <label for="s_opciones">Seleccione su fruta favorita</label>
+            <select name="opciones" id="s_opciones" size="1">
+                <option value="Platano">Platano</option>
+                <option value="Pera">Pera</option>
+                <option value="Manzana" selected>Manzana</option>
+                <option value="Fresa">Fresa</option>
+            </select>
+            <br>
+            <label for="t_consulta">Escriba aqui su consulta</label>
+            <br>
+            <textarea name="consulta" id="t_consulta" cols="30" rows="10"></textarea>
+
+            <br>
+
+            <input type="button" value="Aceptar">
+            <input type="reset" value="Borrar">
+            <input type="submit">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

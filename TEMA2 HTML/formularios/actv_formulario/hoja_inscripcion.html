@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoja inscripcion</title>
+</head>
+
+<body>
+<h1 style="text-align:center">HOJA DE INSCRIPCIÓN<br>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+    <form>
+        <fieldset style="background-color:grey">
+            <legend style="background-color:white; border:solid 1px black;">Datos Personales</legend>
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre:<br></label>
+                        <input type="text" name="Nombre"></td>
+
+                    <td><label for="apellidos">Apellidos:<br></label>
+                        <input type="text" name="Apellido"></td>
+
+                    <td><label for="DNI">DNI:<br></label>
+                        <input type="text" name="DNI"></td>
+                </tr>
+                <tr>
+                    <td><label for="Loc_nac">Localidad Nacimiento:<br></label>
+                        <input type="text" name="Loc_nac"></td>
+
+                    <td><label for="provincia">Provincia:<br></label>
+                        <select name="provincias" id="provincias">
+                            <option value="Sevilla">Sevilla</option>
+                            <option value="Cordoba">Cordoba</option>
+                            <option value="Malaga">Malaga</option>
+                            <option value="Huelva">Huelva</option>
+                            <option value="Cadiz">Cadiz</option>
+                            <option value="Almeria">Almeria</option>
+                            <option value="Jaen">Jaen</option>
+                            <option value="Granada">Granada</option>
+                            <option value="seleciona" selected>- Selecciona -</option>
+
+                    </td>
+
+                    <td><label for="Fecha_nac">Fecha Nacimiento:<br></label>
+                        <input type="date" name="fecha_nac">
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <label for="Direccion">Direccion:<br></label>
+                        <input type="text" name="direccion" size="35">
+                    </td>
+
+
+                    <td><label for="Codigo_postal">Codigo postal:<br></label>
+                        <input type="number" name="Codigo_postal"></td>
+
+
+                </tr>
+
+            </table>
+        </fieldset>
+
+        <fieldset style="background-color:rgb(245, 183, 102)">
+            <legend style="background-color:white; border:solid 1px black;">Forma de Acceso</legend>
+            <dl>
+                <dt><input type="radio" name="exter">Direct</dt>
+                <dl>
+                    <dd><input type="radio" name="inter">Bachillerato LOGSE. Modalidad<input type="text" name="bach1">
+                    </dd>
+                    <dd><input type="radio" name="inter">Bachilerato</dd>
+                    <dd><input type="radio" name="inter">COU. Opcion<input type="text" name="COU"></dd>
+                    <dd><input type="radio" name="inter">FP2</dd>
+                    <dd><input type="radio" name="inter">Otros(Especifique)<input type="text" name="otros"></dd>
+                </dl>
+                <dt><input type="radio" name="exter">Prueba Libre</dt>
+            </dl>
+        </fieldset>
+
+        <fieldset style="background-color:rgb(168, 40, 40)">
+            <legend style="background-color:white; border:solid 1px black;">Documentos Adjuntos</legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="F_dni"><label for="F_dni">Fotocopia DNI</label></td>
+                    <td><input type="checkbox" name="acad"><label for="acad">Certificado Academico</label></td>
+                </tr>
+                
+                    <td colspan="2"><input type="checkbox" name="otro"><label for="otro">Otros Documentos (especifique)</label><input type="text" name="otro_txt"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+
+        <input type="submit" name="enviar" value="Enviar Solicitud">
+
+    </form>
+
+</body>
+
+</html>
