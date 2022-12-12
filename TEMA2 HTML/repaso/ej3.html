@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej3</title>
+</head>
+<body>
+    <form></form>
+    <table>
+        <tr>
+            <th colspan="2" style="background-color: darkcyan;color: black;">IES Alixar Login</th>
+        </tr>
+        <tr>
+            <td><label for="nombre">Usuario:</label></td>
+            <td><input type="text" name="nombre"></td>
+        </tr>
+        <tr>
+            <td><label for="Contraseña">Password:</label></td>
+            <td><input type="password" name="Contraseña"></td>
+        </tr>
+        <tr>
+            <td><label for="fecha">Fecha de Nacimiento:</label></td>
+            <td><input type="date" name="fecha"></td>
+        </tr>
+        <tr>
+            <td><label for="curso">Curso Matriculacion:</label></td>
+            <td><select name="curso">
+                <option value="DAW1" selected>Primero DAW1</option>
+                <option value="DAM1">Primero DAM1</option>
+                <option value="ASIR1">Primero ASIR1</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td rowspan="4"><label for="role">Role:</label></td>
+            <td><input type="radio" name="role">Estudiante</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="role">Profesor</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="role">Apoyo</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="role">Staff</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><label for="medio">Forma de Comunicacion:</label></td>
+            <td><input type="checkbox" name="Mail">Mail</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="Telefono">Telefono</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="correo">Correo ordinario</td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><input type="submit" name="enviar"></td>
+            <td><input type="reset" value="Borrar"></td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
