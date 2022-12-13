@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ4</title>
+    <style>
+        td, tr {
+            border:1px solid black;
+        }
+
+    </style>
+</head>
+<body style="font-family:Arial, Helvetica, sans-serif">
+    <h2 style="text-align:center">TRES EN RAYA</h2>
+
+    <table style="border:1px solid black; text-align:center">
+        <tr>
+            <td></td>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><img src="images/cross.png" height="100px" width="100px" alt="cruz"></td>
+            <td></td>
+            <td><img src="images/ok.png" height="100px" width="100px" alt="tick">
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td><img src="images/cross.png" height="100px" width="100px" alt="cruz"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><img src="images/ok.png" height="100px" width="100px" alt="tick"></td>
+            <td></td>
+            <td><img src="images/cross.png" height="100px" width="100px" alt="cruz"></td>
+        </tr>
+        
+    </table>
+
+    <br><br>
+
+    <form action="post">
+            <table>
+                <tr>
+                    <th colspan="2">Turno para jugador Uno</th>
+                </tr>
+                <tr>
+                    <td><label for="fila">Fila</label></td>
+                    <td><input type="number" id="fila" value="1">                </td>
+                </tr>
+                <tr>
+                    <td><label for="columna">Columna</label></td>
+                    <td><input type="number" id="columna" value="1"></td>
+                </tr>
+                <tr style="text-align:center">
+                    <td colspan="2"><input type="submit" id="enviar"></td>
+                </tr>
+            </table>
+
+    </form>
+    
+</body>
+</html>
