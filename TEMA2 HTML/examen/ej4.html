@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej4</title>
+    <style>
+        legend{
+            color:blue; font-weight: bold;
+        }
+        form{
+            border:3px solid blue;
+            border-style:outset;
+        }
+        .boton{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body style="font-size: small; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+
+    <form>
+        <H1>Reservation Request</H1>
+
+        <fieldset>
+            <legend>General Information</legend>
+            <table>
+                <tr>
+                    <td><label for="date">Arrival date:</label></td>
+                    <td><input type="text" id="date" value="12/39/2016"></td>
+                    <td style="color: red;">Arrival date is invalid</td>
+                </tr>
+                <tr>
+                    <td><label for="nights">Nights:</label></td>
+                    <td><input type="text" id="nights" value="three"></td>
+                    <td style="color: red;">Nights must be a number</td>
+                </tr>
+                <tr>
+                    <td><label for="Adults">Adults:</label></td>
+                    <td><select id="Adults">
+                        <option value="0">0</option>
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Children">Children:</label></td>
+                    <td><select id="Children">
+                        <option value="0" selected>0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        </select>
+                    </td>
+                </tr>
+            
+        </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Preferences</legend>
+            <table>
+                <tr>
+                    <td><label for="room">Room Type:</label></td>
+                    <td><input type="radio" name="room" checked>Standard</td>
+                    <td><input type="radio" name="room">Business</td>
+                    <td><input type="radio" name="room">Suite</td>
+                </tr>
+                <tr>
+                    <td><label for="bed">Bed Type:</label></td>
+                    <td><input type="radio" name="bed" checked>King</td>
+                    <td><input type="radio" name="bed">Double Bouble</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="smoke">Smoking</td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name"></td>
+                    <td style="color: red;">Name is required.</td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" value="graceyahoo.com"></td>
+                    <td style="color: red;">Email address is invalid.</td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone:</label></td>
+                    <td><input type="tel" id="phone" value="123-456-789"></td>
+                    <td style="color: red;">Phone number is invalid.</td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit Reservation" class="boton" name="submit">
+        <input type="reset" value="Clear" class="boton" name="reset">
+    </form>
+    
+</body>
+</html>
