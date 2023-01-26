@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+}
+#colorA{
+    background-color: #45bdd4;
+    height: 60%;
+}
+/*color botones*/
+
+button a:first-child{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+ }
+
+/* HEADER*/
+/*Logueo*/
+#log a{
+    color: white;
+    display: block;
+    margin-left: 990px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*barra*/
+
+#barra{
+    display: flex ;
+}
+
+/*foto*/
+
+header img{
+    width: 150px;
+    height: 40px;
+    margin-top:10px;
+    margin-right: 20px;
+    margin-left: 300px;
+}
+
+/*sign up*/
+header button{
+    height: 40px;
+    background-color: #32322a;
+    border-radius: 5px;
+    border: 1px;
+    margin-top: 10px;
+   
+
+
+}
+
+header a{
+    color: #50514b;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*menu*/
+header li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header nav{
+    display: flex;
+    padding-top:5px ;
+    padding-bottom:5px ;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #d0eef4;
+    margin-left:10px;
+    margin-right:0px;
+    padding: 10px;   
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px  ;
+    margin-top:5px;
+    
+    
+}
+/*busq menu*/
+
+header input{
+    border:  1px;
+    border-radius: 5px;
+}
+
+
+/*bloque*/
+
+
+
+#texto button{
+    background-color: #e14d35;
+    border-radius: 5px;
+    border: 1px;
+    padding: 15px 40px;
+    display: block;
+    margin-bottom: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cental{
+    display: flex;
+}
+
+
+#foto {
+    margin-left: 200px;
+  display: inline-block;
+}
+
+#texto {
+    margin-left: 25px;
+    width: 400px;
+    height: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+#texto p{
+    color: black;
+    
+}
+
+h2 {
+    color: white;
+    font-size:75px;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+
+#colorG{
+    background-color: gray;
+    height: 40%;
+}

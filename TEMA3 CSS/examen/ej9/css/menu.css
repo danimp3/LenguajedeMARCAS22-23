@@ -1,0 +1,110 @@
+/* ------------------------------------------ */
+/* MENU DE NAVEGACION                         */
+/* ------------------------------------------ */
+
+/* Selecciona el elemento <body> */
+{
+  padding-left: 40px;
+  font-family: sans-serif;
+}
+
+/* Selecciona todos los elementos <ul> */
+{
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Selecciona todos los elementos <a> */
+{
+  display: block;
+}
+
+/* Selecciona todos los <ul> que son hijos directos de un elemento <div> que a su vez es hijo directo de <body> */
+{
+  width: 300px;
+  border-radius: 10px;
+  background-color: #ddd;
+}
+
+/* Selecciona un elemento <ul> anidado dentro de otro <ul> */
+{
+  position: relative;
+  z-index: 5;
+  border-radius: 6px;
+  margin: 10px -22px;
+  padding: 15px;
+  background-color: #eee;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .3);
+  transition: transform .35s;
+}
+
+/* Selecciona un elemento <div> que es hijo directo de un elemento <li> */
+{
+  padding: 12px;
+}
+
+/* Selecciona un elemento <div> que es hijo directo de un elemento <li> con clase "show" */
+{
+  padding-bottom: 0;
+}
+
+/* Cambiar la apariencia de un elemento <li> cuando el usuario pasa el ratón encima del msimo */
+{
+  background-color: #e9e9e9;
+}
+
+/* Cambiar la apariencia solo del primer elemento <li> cuando el usuario pasa el ratón encima del mismo */
+{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/* Cambiar la apariencia solo del último elemento <li> cuando el usuario pasa el ratón encima del mismo */
+{
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* Selecciona un elemento <a> que se encuentra dentro un elemento <li> */
+{
+  color: #333;
+  text-decoration: none;
+}
+
+/* Cambiar la apariencia de un elemento <ul> cuando el usuario pasa el ratón encima de un elemento <li> */
+{
+  transform: scale(1.05);
+}
+
+/* Selecciona el elemento <a> que se encuentra en una lista anidada */
+{
+  color: #ffcc99;
+}
+
+/* Selecciona el elemento <div> que es hijo directo del elemento <li> de una lista anidada */
+{
+  border-radius: 4px;
+  padding: 8px;
+  background-color: #333;
+  font-size: .85rem;
+  transform: translateX(0);
+  transition: background .35s, transform .35s;
+}
+
+/* Selecciona un elemento <li> hermano de otro elemento <li> de una lista anidada */
+{
+  margin-top: 15px;
+}
+
+/* Cambia la apariencia del elemento <div> que es hijo directo del elemento <li> de una lista anidada, cuando el usuario pasa el ratón encima del mismo <div> */
+{
+  background-color: rgb(187, 2, 2);
+  transform: translateX(15px);
+}
+
+/* Cuando el usuario pasa el ratón encima del <div> indicado en el paso anterior, ha de ser visible el valor del atributo data-fecha del elemento <a> tal y como muestra la imagen de ejemplo. */
+{
+  content: " - "attr(data-fecha);
+  color: #fff;
+  font-size: .75rem;
+}

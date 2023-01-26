@@ -1,0 +1,17 @@
+body: Le estamos aplicando un color "tan" a el fondo de toda la pagina
+
+H1: Le estamos aplicando color al texto del titulo y tambien le estamos cambiando el tamaño de la letra.
+
+hr:le estamos aplicadndo color a la linea que separa
+
+p: le estamos cambiando el tamaño de letra a los parrafos  y aumentando el margen de la izquierda
+
+p.verse: le estamos cambiando el color de la fuente a "marroon" y aumentando el margen por la izquierda a todos los parrafos que contengan la clase "verse".
+
+a:link: le estamos cambiando el color a verde a todos los enlaces de la pagina
+
+a:visited: le estamos cambiando el color a amarillo a todos los enlaces a los que hemos accedido.
+
+a:hover: le estamos cambiando el color a negro a todos los enlaces cuando ponemos el rator encima de este.
+
+a:active: le estamos cambiando el color a azul a todos los elaces cuando mantenemos pulsado en enlace.

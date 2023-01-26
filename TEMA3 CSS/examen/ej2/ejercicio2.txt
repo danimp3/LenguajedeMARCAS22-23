@@ -1,0 +1,1 @@
+Porque en los dos primeros parrafos se le esta aplicando una clase que a todos los parrafos que contengan esa clase se le aplica los mismos estilos
