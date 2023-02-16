@@ -3,8 +3,9 @@
 
 /* Body */
 body {background-image:url(jabber2.gif);
-    background-position: center;
-    background-repeat: no-repeat;}
+    background-position: right;
+    background-repeat: no-repeat;
+
 
 /* Headers */
 h1 {color:maroon; font-size:20pt}

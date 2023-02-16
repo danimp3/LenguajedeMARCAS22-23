@@ -22,6 +22,7 @@ button a:first-child{
     margin-left: 990px;
     margin-bottom: 0px;
     margin-top: 0px;
+    padding-top: 10px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -131,12 +132,19 @@ header input{
 }
 
 
+
 #foto {
     margin-left: 200px;
-  display: inline-block;
+  float:left
+}
+
+#foto img{
+    height: 300px;
+    width: 300px;
 }
 
 #texto {
+    
     margin-left: 25px;
     width: 400px;
     height: 200px;

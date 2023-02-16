@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+/*Div del container de toda la pagina */
+#containerP{
+    color: white;
+}
+
+/*Div del titulo*/
+#containerP>div:first-child{
+    background-color: black;
+    margin-top: 0px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    padding: 37px;
+    
+}
+/*enlace y texto de logueo de arriba */
+#login{
+    float: right;
+}
+/*Div del menu principal*/
+
+#menuSup{
+    background-color: #697F55;
+    width: 100%;
+    height: 35px;
+    border-bottom: solid #3A4D28;
+    
+}
+
+/* Cada elemento del menu superior*/
+#menuSup div{
+    float: left;
+    padding: 7px;
+    
+}
+/*Propiedades del menu superior al pasar el raton por encima*/
+#menuSup div:hover{
+background-color: blue;
+color: red;
+}
+
+/*div del Menu principal*/
+#container>div:first-child{
+    background-color: #C8C9C7;
+    float: left;
+    margin: 20px;
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+}
+
+/*imagen del Menu principal*/
+#container>div:first-child img{
+width: 150px;
+height: 150px;
+}
+
+/*div del calendario*/
+#container>div:nth-child(3){
+    background-color: #C8C9C7;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+}
+
+/*imagen del calendario*/
+#container>div:nth-child(3) img{
+    width: 200px;
+    height: 100px;
+   
+}
+
+/*div central que contiene la imagen del centro y las categorias*/
+#float{
+    float: left;
+    margin:20px 60px;
+    width: 700px;
+    
+    
+
+}
+
+/*imagen del centro*/
+#float>div:nth-child(1) img{
+width: 600px;
+margin-left: 50px;
+}
+
+/*div del titulo de las categorias*/
+#float>div:nth-child(2){
+    background-color: #C8C9C7;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid #71865E;
+    margin-top: 30px;
+}
+
+
+/*div de las categorias*/
+#float>div:nth-child(3){
+    background-color: #C8C9C7;
+    color: #697F55;
+    border: 2px solid #697F55 ;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-top: 10px;
+
+}
+/*imagen del arbol de navidad*/
+
+#float>div:nth-child(3) img{
+float:right;
+width: 100px;
+height: 100px;
+margin-top: 60px;
+margin-right: 10px;
+}
+/*cada una de las categorias*/
+#float>div:nth-child(3) li{
+    padding-bottom: 10px;
+    list-style: none;
+    }
+
+    /*Numero detras de la categoria*/
+span{
+    color: black;
+    font-weight: bold;
+}
+
+/*Footer*/
+#containerP>div:last-child{
+    background-color: black;
+    clear: both;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+  
+}
