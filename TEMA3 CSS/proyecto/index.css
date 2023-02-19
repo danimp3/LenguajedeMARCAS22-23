@@ -1,5 +1,7 @@
-body{
+*{
     margin: 0px;
+    box-sizing: border-box;
+    
 }
 #colorA{
     background-color: #45bdd4;
@@ -51,7 +53,7 @@ header button{
     background-color: #32322a;
     border-radius: 5px;
     border: 1px;
-    margin-top: 10px;
+    margin-top: 15px;
    
 
 
@@ -68,7 +70,7 @@ header a{
 /*menu*/
 header li{
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 header nav{
@@ -84,7 +86,7 @@ ul{
     background-color: #d0eef4;
     margin-left:10px;
     margin-right:0px;
-    padding: 10px;   
+    padding: 15px;   
     text-decoration: none;
     border-radius: 5px;
     border: 1px  ;
@@ -114,19 +116,6 @@ header input{
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #cental{
     display: flex;
 }
@@ -135,7 +124,7 @@ header input{
 
 #foto {
     margin-left: 200px;
-  float:left
+    float:left
 }
 
 #foto img{
@@ -146,8 +135,8 @@ header input{
 #texto {
     
     margin-left: 25px;
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 330px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
@@ -160,13 +149,55 @@ header input{
 
 h2 {
     color: white;
-    font-size:75px;
+    font-size:65px;
     font-weight: bold;
     margin-bottom: 0%;
 }
 
 
 #colorG{
-    background-color: gray;
-    height: 40%;
+    background-color: #CCD0CF;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #50514b;
+
+}
+
+#colorG>div:first-child{
+    float: left;
+    border: 1px ;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    margin-left: 200px;
+    position: relative;
+    bottom: 30px;
+    
+    }
+
+    #colorG>div:first-child>p:first-child{
+        font-size: 25px;
+        font-weight: bold;
+        margin: 15px 20px;
+
+    }
+   
+.cuadrados{
+    float: left;
+    width: 200px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.cuadrados h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cuadrados p:nth-child(2){
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.cuadrados p:last-child{
+    font-size: 13px;
 }

@@ -1,0 +1,51 @@
+table{
+    border-collapse: collapse;
+    display: table;
+    margin: auto;
+}
+td,th{
+    border: 1px solid black;
+
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.rojo{
+    background-color: red;
+    color: white;
+
+}
+
+.GB{
+    background-color: grey;
+    font-size: 25px;
+    text-align: center;
+}
+
+#letras{
+    color: red;
+
+}
+
+#amarillo{
+    background-color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+td[colspan="2"]{
+    background-color: blue;
+}
+
+td[colspan="3"]{
+    background-color: blue;
+}
