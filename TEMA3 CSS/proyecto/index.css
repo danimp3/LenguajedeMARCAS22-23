@@ -13,7 +13,7 @@ button a:first-child{
     color: white;
     text-decoration: none;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
  }
 
 /* HEADER*/
@@ -21,7 +21,7 @@ button a:first-child{
 #log a{
     color: white;
     display: block;
-    margin-left: 990px;
+    margin-left: 77%;
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 10px;
@@ -44,7 +44,7 @@ header img{
     height: 40px;
     margin-top:10px;
     margin-right: 20px;
-    margin-left: 300px;
+    margin-left: 20%;
 }
 
 /*sign up*/
@@ -123,7 +123,7 @@ header input{
 
 
 #foto {
-    margin-left: 200px;
+    margin-left: 20%;
     float:left
 }
 
@@ -134,7 +134,7 @@ header input{
 
 #texto {
     
-    margin-left: 25px;
+    margin-left: 3%;
     width: 500px;
     height: 330px;
     color: white;
@@ -144,6 +144,8 @@ header input{
 
 #texto p{
     color: black;
+    font-size: 14px;
+    width: 70%;
     
 }
 
@@ -157,7 +159,7 @@ h2 {
 
 #colorG{
     background-color: #CCD0CF;
-    height: 500px;
+    height: 370px;
     font-family: Arial, Helvetica, sans-serif;
     color: #50514b;
 
@@ -168,7 +170,7 @@ h2 {
     border: 1px ;
     border-radius: 5px;
     background-color: #F0F0F0;
-    margin-left: 200px;
+    margin-left: 15%;
     position: relative;
     bottom: 30px;
     
@@ -192,9 +194,14 @@ h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
+.cuadrados img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10%;
+}
 
 .cuadrados p:nth-child(2){
-    font-size: 13px;
+    font-size: 10px;
     margin-top: 10px;
     font-weight: bold;
 }
