@@ -53,6 +53,7 @@ header button{
     border: 1px;
 }
 
+/*enlace boton negro*/
 header a{
     color: #50514b;
     text-decoration: none;
@@ -95,10 +96,10 @@ header input{
 }
 
 
-/*bloque*/
 
 
 
+/*boton naranja*/
 #texto button{
     background-color: #e14d35;
     border-radius: 5px;
@@ -108,23 +109,23 @@ header input{
     margin-bottom: 2%;
     }
 
-
+/*bloque central*/
 #cental{
     display: flex;
 }
 
 
-
+/*div imagen mono*/
 #foto {
     margin-left: 20%;
     float:left
 }
-
+/*imagen mono*/
 #foto img{
     height: 300px;
     width: 300px;
 }
-
+/*div texto */
 #texto {
     
     margin-left: 3%;
@@ -135,6 +136,7 @@ header input{
     display: inline-block;
 }
 
+/*parrafo de texto */
 #texto p{
     color: black;
     font-size: 14px;
@@ -142,6 +144,7 @@ header input{
     
 }
 
+/*titulo de texto */
 h2 {
     color: white;
     font-size:65px;
@@ -149,7 +152,7 @@ h2 {
     margin-bottom: 0%;
 }
 
-
+/*Bloque de abajo*/
 #colorG{
     background-color: #CCD0CF;
     height: 370px;
@@ -158,6 +161,7 @@ h2 {
 
 }
 
+/*div que contiene los cuatro elementos */
 #colorG>div:first-child{
     float: left;
     border: 1px ;
@@ -168,7 +172,7 @@ h2 {
     bottom: 30px;
     
     }
-
+/*parrafo  del titulo */
     #colorG>div:first-child>p:first-child{
         font-size: 25px;
         font-weight: bold;
@@ -176,28 +180,33 @@ h2 {
 
     }
    
+    /*div de cada zona de contenido */
 .cuadrados{
     float: left;
     width: 200px;
     margin: 5px;
     margin-left: 20px;
 }
-
+/*titulo de cada zona de contenido */
 .cuadrados h5{
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+/*imagen de cada zona de contenido */
 .cuadrados img{
     width: 150px;
     height: 150px;
     margin-left: 10%;
 }
-
+/*mini titulo de abajo de cada zona de contenido */
 .cuadrados p:nth-child(2){
     font-size: 10px;
     margin-top: 10px;
     font-weight: bold;
 }
+
+/*texto de cada zona de contenido */
 .cuadrados p:last-child{
     font-size: 13px;
 }
