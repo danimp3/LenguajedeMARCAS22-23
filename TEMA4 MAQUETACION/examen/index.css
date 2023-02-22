@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ /*cabezera*/
+header{
+    width: 100%;
+    height: 60px;
+}
+
+
+/*titulo centum*/
+#cabez>div:first-child {
+    font-weight: bold;
+    float: left;
+    
+
+}
+
+/*Punto de la derecha de centum*/
+#cabez>div:first-child span{
+    color: green;
+    border-right: solid 1px gray;
+    margin-right: 10px;
+}
+
+/*Frase Its time*/
+
+#cabez>div:last-child{
+    color: grey;
+    border-right: solid 1px gray;
+}
+/*contactos*/
+#contacto{
+    float: right;
+    margin-top: 10px;
+    
+}
+
+/*lista contacto*/
+#contacto ul{
+    list-style:none;
+    height: 30px;
+}
+
+/* cada elemento de la lista*/
+#contacto li{
+    float: left;
+    margin-left: 10px;
+    
+}
+/*imagenes pequeñas*/
+#contacto img{
+    margin-right: 10px;
+}
+#contacto li>img{
+    float: left;
+}
+
+/*segundo elemento de la lista*/
+#contacto li:last-child{
+   border-left: 1px solid;
+}
+
+/* texto lista*/
+#contacto li>p{
+    float: left;
+}
+/*menu horizontal*/
+nav{
+    background-color: black;
+    height: 40px;
+    margin-bottom: 10px;
+}
+/*lista menu*/
+nav>ul {
+    list-style: none;
+   float: left;
+   margin-top: 7px;
+    
+}
+/*cada elemento de la lista*/
+nav>ul a{
+    
+   float: left;
+   margin-right: 20px;
+   text-decoration: none;
+   margin-top: 5px;
+   color: white;
+   font-weight: bold;
+   padding-right: 20px;
+   border-right: 1px solid white ;
+}
+/*elemento de color al pasar el raton*/
+nav>ul a:hover{
+
+    color:green
+}
+
+/*formulario lista*/
+#formulario {
+ margin-top: 7px;
+    float: right;
+}
+/*elemento input del formulario*/
+#formulario input{
+    background-color: black;
+    border: 0px;
+}
+/*bloque central*/
+main{
+    height: 700px;
+}
+/*imagen bloque central*/
+main>img{
+    width: 100%;
+    height: 700px;
+}
+
+
+/*this is caption*/
+main>div{
+    background-color: grey ;
+    
+    position: relative;
+    bottom: 190px;
+    left: 40px;
+    width: 40%;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+/*titulo this is caption*/
+main>div h2{
+    margin-bottom: 10px;
+    
+}
+
+/*botones flotantes*/
+.izqDer{
+    background-color: grey;
+    color: white;
+    float: right;
+    width: 35px;
+    height: 45px;
+    padding-top: 10px;
+    padding-left:12px ;
+    text-align: center;
+    
+}
+/*boton izq*/
+main>div:nth-child(3){
+   
+    position: absolute;
+    top: 740px;
+    left: 1245px;
+}
+
+/*boton der*/
+main>div:nth-child(4){
+    position: absolute;
+    border-right: 1px solid white;
+    top: 740px;
+    left: 1210px;
+}
+
+/*contenido botones*/
+.izqDer a{
+    text-decoration: none;
+   color: white;
+   font-weight:  bold;
+}
+
+/*bloques abajo*/
+.bloques{
+float: left;
+width: 30%;
+}
+/*imagenes*/
+.bloques>div:first-child{
+    float: left;
+}
+
+/* texto bloque*/
+.bloques>div:nth-child(2){
+   width: 300px;
+    margin-left: 70px;
+    text-align: justify;
+}
+/*titulo bloque*/
+.bloques>div:nth-child(2) h2{
+    margin-bottom: 10px;
+}
