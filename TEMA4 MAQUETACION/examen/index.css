@@ -123,6 +123,7 @@ main>img{
 /*this is caption*/
 main>div{
     background-color: grey ;
+    opacity: 0.8;
     
     position: relative;
     bottom: 190px;
@@ -137,6 +138,7 @@ main>div{
 /*titulo this is caption*/
 main>div h2{
     margin-bottom: 10px;
+    
     
 }
 
