@@ -5,7 +5,7 @@
 }
 #colorA{
     background-color: #45bdd4;
-    height: 70%;
+    height: 60%;
 
     
 }
@@ -13,8 +13,9 @@
 header{
     height: 80px;
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
-    flex-wrap: wrap;
+    width: 100%;
 }
 /*color botones*/
 
@@ -29,17 +30,15 @@ button a:first-child{
 /*Logueo*/
 #log a{
     color: white;
+    display: block;
     margin-left: 77%;
     padding-top:1%;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: bold;
-}
+    width: 1000px;
 
-#log{
-    width: 1320px;
-    height: 25px;
 }
 
 /*barra*/
@@ -48,9 +47,7 @@ button a:first-child{
     align-items: center;
     height: 40px;
     display: flex;
-    flex-wrap: nowrap;
-    width: 1320px;
-    height: 50px;
+    flex-wrap:nowrap;
 }
 
 
@@ -61,6 +58,7 @@ header img{
     height: 40px;
     margin-right: 2%;
     margin-left: 19%;
+    float: left;
 }
 
 /*sign up*/
@@ -69,6 +67,8 @@ header button{
     background-color: #32322a;
     border-radius: 5px;
     border: 1px;
+    float: left;
+  
 }
 
 /*enlace boton negro*/
@@ -83,8 +83,9 @@ header a{
 /*menu*/
 header li{
     margin-left: 5px;
-    margin-right: 10px; 
-    
+    margin-right: 10px;
+
+    float: left;
 }
 
 header li>a{
@@ -106,7 +107,8 @@ ul{
     text-decoration: none;
     border-radius: 5px;
     border: 1px;
-    display: flex;
+    float: left;
+    
     
 }
 /*busq menu*/
@@ -117,10 +119,8 @@ header input{
 }
 
 #central{
-    display: flex;
+    display: block;
     height: 330px;
-    justify-content: center;
-    flex-wrap: nowrap;
 }
 
 
@@ -131,12 +131,17 @@ header input{
     border-radius: 5px;
     border: 1px;
     padding: 15px 40px;
+    display: block;
     margin-bottom: 2%;
-    width:159px;
-    margin-right: 341px;
-    
     }
 
+
+/*div imagen mono*/
+#foto {
+    margin-left: 20%;
+    float:left;
+    clear: both;
+}
 /*imagen mono*/
 #foto img{
     height: 300px;
@@ -144,14 +149,13 @@ header input{
 }
 /*div texto */
 #texto {
-    display: flex;
-    flex-wrap:wrap;
+    
     margin-left: 3%;
     width: 500px;
     height: 330px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    align-items: start;
+    float: left;
 }
 
 /*parrafo de texto */
@@ -159,12 +163,7 @@ header input{
     color: black;
     font-size: 14px;
     width: 70%;
-    margin-right: 30%;
-    height: 50px;
-}
-
-#texto a{
-    height: 60px;
+    
 }
 
 /*titulo de texto */
@@ -173,8 +172,6 @@ h2 {
     font-size:65px;
     font-weight: bold;
     margin-bottom: 0%;
-    height: 150px;
-
 }
 
 /*Bloque de abajo*/
@@ -188,9 +185,8 @@ h2 {
 
 /*div que contiene los cuatro elementos */
 #colorG>div:first-child{
-   display: flex;
+    float: left;
     border: 1px ;
-    flex-wrap: wrap;
     border-radius: 5px;
     background-color: #F0F0F0;
     margin-left: 15%;
@@ -203,13 +199,12 @@ h2 {
         font-size: 25px;
         font-weight: bold;
         margin: 15px 20px;
-        width: 100%;
 
     }
    
     /*div de cada zona de contenido */
 .cuadrados{
-    
+    float: left;
     width: 200px;
     margin: 5px;
     margin-left: 20px;
