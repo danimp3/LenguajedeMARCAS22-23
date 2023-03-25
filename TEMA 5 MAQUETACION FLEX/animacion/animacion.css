@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#inicio{
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    left: 950px;
+    float: left;
+}
+
+#ter{
+    animation: ter 2s forwards;
+    opacity: 1;
+
+}
+#seg{
+    animation: seg 2s forwards;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+#pri{
+    animation: pri 2s forwards;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+
+
+#inicio img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+#victoria{
+position: relative;
+text-align: center;
+top: 50px;
+left: 950px;
+float: left;
+font-size: 32px;
+color: white;
+font-weight: bold;
+
+
+    animation: victoria 3s forwards;
+    animation-delay: 13s;
+    opacity: 0;
+}
+
+#victoria img{
+    height: 250px;
+    width: 200px;
+
+}
+
+
+
+.carrera {
+    width: 100%;
+    height: 1010px;
+    background-image: url(cars/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  img{
+    width: 75%;
+    height: 75%;
+  }
+  
+#coches {
+    padding-top: 200px;
+    width: 400px;
+    height: 600px;
+    top: 300px;
+    
+  }
+  
+  .coche1 {
+    margin-top: 380px;
+    left: 0;
+    animation-name: moverse1;
+    animation-delay: 7s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  .coche2 {
+    left: 0;
+    animation-name: moverse2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  .meta{
+        position: absolute;
+        left: 1500px;
+        top: 260px;
+  }
+.meta img{
+    padding-left: 80px;
+    width: 300px;
+    height: 200px;
+}
+ 
+#linea img
+{
+    width: 450px;
+    height: 100px;
+   transform: rotate(85deg);
+   margin-top: 200px;
+}
+
+
+  @keyframes moverse1 {
+    from { transform: translateX(0px); }
+    to { transform: translate(1700px); }
+  }
+  
+  @keyframes moverse2 {
+    from { transform: translateX(0px); }
+    to { transform: translate(1700px); }
+  }
+
+  
+@keyframes victoria {
+    to {
+      opacity: 1; 
+    }
+  }
+
+  @keyframes ter {
+    from { opacity: 1;}
+    to {
+      opacity: 0; 
+    }
+  }
+  @keyframes seg {
+    from { opacity: 1;}
+    to {
+      opacity: 0; 
+    }
+  
+  }
+  @keyframes pri {
+    from { opacity: 1;}
+    to {
+      opacity: 0; 
+    }
+  }
