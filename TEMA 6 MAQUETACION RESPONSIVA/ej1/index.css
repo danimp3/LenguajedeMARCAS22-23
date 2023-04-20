@@ -1,0 +1,73 @@
+#container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    text-align: center;
+    justify-content: center;
+}
+
+.betis{
+    width: 50%;
+    height:50px ;
+    background-color: green;
+    
+}
+
+.cadiz{
+    width: 50%;
+    background-color: yellow;
+    height:50px ;
+}
+
+.betis2{
+    width: 50%;
+    height:50px ;
+    background-color: lime;
+    
+}
+
+.cadiz2{
+    width: 50%;
+    background-color: yellowgreen;
+    height:50px ;
+}
+
+@media screen and (min-width: 576px){ 
+   .cadiz2{
+        width: 100%;
+   }
+   .betis{
+    width: 33.33%;
+
+}
+.cadiz{
+    width: 33.33%;
+
+}
+.betis2{
+    width: 33.33%;
+
+}
+}
+
+
+@media screen and (min-width: 992px){
+    .betis{
+        width: 25%;
+ 
+    }
+    .betis2{
+        width: 25%;
+ 
+    }
+    .cadiz{
+        width: 25%;
+ 
+    }
+    .cadiz2{
+        width: 25%;
+ 
+    }
+    
+}

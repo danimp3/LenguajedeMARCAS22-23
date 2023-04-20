@@ -130,7 +130,7 @@ font-weight: bold;
 
   @keyframes moverse1 {
     from { transform: translateX(0px); }
-    to { transform: translate(1700px); }
+    to { transform: translateX(1700px); }
   }
   
   @keyframes moverse2 {

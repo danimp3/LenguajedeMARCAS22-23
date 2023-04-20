@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/LaLiga.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table{
+    margin: auto;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+tr, td{
+    border: 1px solid black;
+}
+
+thead{
+    background-color: rgb(210, 252, 252);
+}
+
+tbody{
+    background-color: rgb(190, 255, 177);
+}
+
+/*DESAPARECER*/
+
+@media screen and (max-width: 768px) {
+    .hidden td.primero,
+    .hidden th.primero {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .hidden td.segundo,
+    .hidden th.segundo {
+      display: none;
+    }
+  }
+  
+  /*SCROLL*/
+
+  div.scroll {
+    overflow-x: auto;
+    width: 100%;
+  }
+  
+  /*block*/
+
+  @media screen and (max-width: 768px) {
+    td.primero1,
+    th.primero1 {
+      display: block;
+    }
+  }

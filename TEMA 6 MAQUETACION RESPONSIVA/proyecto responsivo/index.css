@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+#principal{
+    height: 100%;
+}
+
+#arriba{
+    height: 30%;
+    background-color: #03262B;
+    color: white;
+}
+
+#arriba > div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    border-bottom: 2px solid #09626B;
+}
+#arriba div h3{
+    font-size: 42px;
+    width: 50%;
+}
+
+#menu{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 10%;
+    color: #0FC2C7;
+}
+
+#menu div:hover{
+    background:linear-gradient(#0FC2C7, #044C54);
+}
+
+
+
+
+
+
+
+
+
+
+
+#abajo{
+    height: 70%;
+}
