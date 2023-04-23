@@ -42,8 +42,8 @@ header{
 
 @media  screen and (min-width: 577px) {
     .icon{ display: none;}
-    header{margin-left: 2%;}
-    nav{ display: flex; margin-right: 12%;}
+    header h1{margin-left: 2%;}
+    nav{ display: flex; margin-right: 5%;}
     .menu_item{ margin-left: 6%; }
     main{ display: flex;}
     .main_text{width: 50%;   }
@@ -58,12 +58,11 @@ header{
 @media screen and (min-width: 993px){
 
     .icon{ display: none;}
-    header{margin-left: 2%;}
-    nav{ display: flex; margin-right: 12%;}
+    nav{ display: flex; margin-right: 5%;}
     .hidden{ display: flex;}
     main{ display:flex;
         flex-direction: row-reverse;}
     .images img{width: 33.33% }
     .novedades h2,article{width: 25%;}
-    body{font-size: 0.80vw;}
+    body{font-size: 0.80vw; margin: 0px;}
 }
