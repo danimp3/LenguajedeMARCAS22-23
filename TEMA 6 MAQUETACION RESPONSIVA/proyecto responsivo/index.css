@@ -1,8 +1,16 @@
+@font-face {
+    font-family: 'open sans';
+    src: url('img/FontsFree-Net-Bison-BoldPersonalUse.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
 *{
     margin: 0px;
     box-sizing: border-box;
-    
 }
+
+
 
 #principal{
     height: 100%;
@@ -12,17 +20,20 @@
     height: 30%;
     background-color: #03262B;
     color: white;
+    padding: 0px 7%;
 }
 
-#arriba > div{
+#arriba > :nth-child(1){
     display: flex;
     justify-content: space-between;
     padding-top: 1%;
-    border-bottom: 2px solid #09626B;
+    padding: 1%;
+    align-items: center;
 }
 #arriba div h3{
     font-size: 42px;
     width: 50%;
+    font-family:'open sans';
 }
 
 #menu{
@@ -36,18 +47,281 @@
 
 #menu div:hover{
     background:linear-gradient(#0FC2C7, #044C54);
+    padding: 2% 2%;
+    
+}
+
+#hr1{
+    height: 2px;
+  background: linear-gradient(to right, rgba(0,0,0,0), #09626B, rgba(0,0,0,0));
+  border: none;
+}
+
+
+#central{
+    display: flex;
+    padding-top: 2%;
+}
+
+#izq{
+    width: 40%;
+}
+
+#tit_arr{
+    font-family: 'open sans';
+}
+
+#tit_arr h1{
+    font-family: 'open sans';
+    font-size: 60px;
+}
+
+#tit_arr h2{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+#izq p{
+    padding-top: 3%;
+    color: #0FC2C7;
+    width: 80%;
 }
 
 
 
 
+#der{
+    width: 60%;
+}
+#der img{
+    width: 90%;
+    height: 80%;
 
+}
 
+#flot{
+    background-color: black ;
+    opacity: 0.6;
+    position: relative;
+    bottom:21%;
+    width: 90%;
+    padding: 5%;
+    font-size: 20px;
+    font-size: 30px;
+}
 
+.izqDer{
+    background-color: black;
+    color: white;
+    float: right;
+    width: 3%;
+    height: 8%;
+    padding-top: 1.5%;
+    text-align: center;
+    color: white;
+    opacity: 0.6;
+    
+}
 
-
-
+.izqDer a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+#der>div:nth-child(3){
+   
+    position: relative;
+    bottom: 65%;
+    right:97%;
+}
+#der>div:nth-child(4){
+   
+    position: relative;
+    bottom: 65%;
+    right:7%;
+}
 
 #abajo{
     height: 70%;
+    padding: 0px 7%;
+    background-color: #fafafa;
+    padding-top: 2%;
+    
+}
+
+#abajo hr{
+
+    margin-bottom: 1%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    border: none;
+}
+
+
+
+
+#bloques{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#bloques > div{
+   width: 33.33%;
+   margin-bottom: 3%;
+}
+.tit{
+    display: flex;
+    align-items: center;
+}
+.tit img{
+   width: 12%;
+}
+
+.tit h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.tit2 h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    padding: 3% 0%;
+}
+
+.tit2 img{
+    width: 90%;
+}
+.text{
+    color: #53525291;
+    margin: 0px;
+    width: 90%;
+}
+
+
+
+.bot{
+    margin-top: 5%;
+    border: 1px solid #c0c0c0 ;
+    border-radius: 10px;  
+}
+
+.bot a{
+    text-decoration: none;
+    color: black;
+}
+
+/*barra abajo*/
+
+#barra_a{
+display: flex;
+font-size: 22px;
+
+    
+    
+}
+#barra_a :nth-child(2){
+  margin-left: 2%; }
+
+  #barra_a :nth-child(2) :first-child{
+    color:grey }
+
+#barra_a :nth-child(1) img{
+ width: 150%;
+}
+
+#barra_a :nth-child(3){
+    margin-left: 5%;
+   }
+.bot2{
+    border: 1px solid #c0c0c0;
+    padding:  10% 60%;
+}
+.bot2 a{
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
+
+
+/*footer*/
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    color: #0FC2C7;
+    background-color: #03262B;
+    height: 80px;
+    padding: 1% 7%;
+}
+#menu_inf{
+    display: flex;
+    font-size: 20px;
+    width: 40%;
+    justify-content: space-between;
+}
+
+
+/*TABLET*/
+
+@media  screen and (max-width: 992px) {
+    
+    
+    #menu{
+        width: 60%;
+    }
+
+    #izq p{
+        padding-top: 10%;
+
+    }
+
+ .bot{
+    margin-left: 35%;
+ }
+    
+    #bloques > div{
+        width: 50%;
+        margin-bottom: 3%;
+     }
+
+     #flot{
+      
+        position: relative;
+        bottom:22.5%;
+        width: 90%;
+        padding: 5%;
+        font-size: 20px;
+    }
+
+
+#barra_a :nth-child(3){
+    margin-left: 2%;
+   }
+    #menu_inf{
+        width: 50%;
+    }
+    .bot2{
+        border: 1px solid #c0c0c0;
+        padding:  10% 40%;
+    }
+    #footer{
+        padding-top: 3%;
+    }
+
+}
+
+
+
+/*MOVIL*/
+
+
+
+
+@media  screen and (max-width: 576px) {
+    #bloques > div{
+        width: 100%;
+        margin-bottom: 3%;
+     }
 }
