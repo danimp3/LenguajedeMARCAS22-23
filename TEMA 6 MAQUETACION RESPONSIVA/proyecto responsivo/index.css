@@ -231,6 +231,11 @@ font-size: 22px;
  width: 150%;
 }
 
+#barra_a a{
+    text-decoration: none;
+    color: black;
+}
+
 #barra_a :nth-child(3){
     margin-left: 5%;
    }
@@ -320,8 +325,76 @@ font-size: 22px;
 
 
 @media  screen and (max-width: 576px) {
+    #arriba div h3{
+        text-align: center;
+    }
+    #bloques{
+        justify-content:center;
+    }
     #bloques > div{
         width: 100%;
         margin-bottom: 3%;
+     }
+
+     #menu{
+        width: 35%;
+        flex-wrap: wrap;
+        margin-left: 10%;
+     }
+
+     #central{
+        flex-direction: column;
+     }
+     #izq{
+        width: 100%;
+       text-align: center;
+     }
+     #izq p{
+        width: 100%;
+       text-align: center;
+     }
+     #der{
+        width: 100%;
+        text-align: center;
+        padding: 3% 0;
+     }
+
+     #flot{
+        display: none;
+     }
+
+     .izqDer{
+        display: none;
+     }
+
+     #bloques > div{
+        text-align: center;
+     }
+     
+     .bot{
+        margin-left: 0;
+     }
+
+     #barra_a{
+       text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+     }
+     #barra_a :nth-child(1) img{
+        display: none;
+     }
+
+     #barra_a :nth-child(3){
+        margin-right: 15%;
+     }
+
+     #footer{
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+     
+     #menu_inf{
+        width: 100%;
      }
 }
