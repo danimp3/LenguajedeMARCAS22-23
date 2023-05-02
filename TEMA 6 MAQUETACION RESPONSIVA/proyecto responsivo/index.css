@@ -1,3 +1,5 @@
+/*INSERCION NUEVA FUENTE*/
+
 @font-face {
     font-family: 'open sans';
     src: url('img/FontsFree-Net-Bison-BoldPersonalUse.ttf') format('truetype');
@@ -5,16 +7,20 @@
     font-weight: normal;
   }
 
+
+
 *{
     margin: 0px;
     box-sizing: border-box;
 }
 
-
+/*TODO EL LAYOUT*/
 
 #principal{
     height: 100%;
 }
+
+/*BLOQUE SUPERIOR*/
 
 #arriba{
     height: 30%;
@@ -23,6 +29,8 @@
     padding: 0px 7%;
 }
 
+/*TITULO Y MENU SUPERIOR*/
+
 #arriba > :nth-child(1){
     display: flex;
     justify-content: space-between;
@@ -30,12 +38,14 @@
     padding: 1%;
     align-items: center;
 }
+
+/*TITULO*/
 #arriba div h3{
     font-size: 42px;
     width: 50%;
     font-family:'open sans';
 }
-
+/*MENU SUP*/
 #menu{
     display: flex;
     font-size: 20px;
@@ -45,11 +55,14 @@
     color: #0FC2C7;
 }
 
+/*MENU SUP AL PASAR RATON*/
 #menu div:hover{
     background:linear-gradient(#0FC2C7, #044C54);
     padding: 2% 2%;
     
 }
+
+/*LINEA DEGRADADO SUPERIOR*/
 
 #hr1{
     height: 2px;
@@ -57,11 +70,14 @@
   border: none;
 }
 
+/*FOTO Y TITULO INFERIOR*/
 
 #central{
     display: flex;
     padding-top: 2%;
 }
+
+/*TITULO INFERIOR*/
 
 #izq{
     width: 40%;
@@ -88,7 +104,7 @@
 }
 
 
-
+/*IMAGEN*/
 
 #der{
     width: 60%;
@@ -98,6 +114,8 @@
     height: 80%;
 
 }
+
+ /*TEXTO Y BOTONES FLOTANTES*/
 
 #flot{
     background-color: black ;
@@ -141,6 +159,9 @@ font-weight: bold;
     right:7%;
 }
 
+
+/*BLOQUE INFERIOR*/
+
 #abajo{
     height: 70%;
     padding: 0px 7%;
@@ -148,6 +169,8 @@ font-weight: bold;
     padding-top: 2%;
     
 }
+
+/*LINEAS DEGRADADO INFERIOR*/
 
 #abajo hr{
 
@@ -157,18 +180,22 @@ font-weight: bold;
     border: none;
 }
 
-
-
+/*DIV QUE CONTIENE CADA APARTADO*/
 
 #bloques{
     display: flex;
     flex-wrap: wrap;
     
 }
+
+
+/*CADA UNO DE LOS APARTADOS*/
+
 #bloques > div{
    width: 33.33%;
    margin-bottom: 3%;
 }
+
 .tit{
     display: flex;
     align-items: center;
@@ -198,7 +225,6 @@ font-weight: bold;
     margin: 0px;
     width: 90%;
 }
-
 
 
 .bot{
