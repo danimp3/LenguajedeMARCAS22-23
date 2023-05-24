@@ -38,9 +38,9 @@
 }
 
 /*MENU SUP AL PASAR RATON*/
-.menu div:hover{
+.menu>div div:hover{
     background:linear-gradient(#0FC2C7, #044C54);
-    padding: 2%;
+    padding: 1%;
 }
 
 /*LINEA DEGRADADO SUPERIOR*/
@@ -78,20 +78,16 @@
 
 
 /*IMAGEN*/
-.der img{
-    width: 90%;
-    height: 80%;
 
-}
 
 
  /*TEXTO Y BOTONES FLOTANTES*/
 
-.flot{
+ .flot{
     background-color: black ;
     opacity: 0.6;
-    position: relative;
-    bottom:21%;
+    
+    bottom:22.5%;
     width: 90%;
     padding: 5%;
     font-size: 20px;
