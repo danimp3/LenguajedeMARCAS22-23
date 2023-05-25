@@ -225,3 +225,16 @@ font-weight: bold;
 }
 
 
+@media  screen and (max-width: 992px) {
+
+    .flot{
+      
+          
+        bottom:22.5%;
+        width: 90%;
+        padding: 5%;
+        font-size: 20px;
+    }
+
+}
+
